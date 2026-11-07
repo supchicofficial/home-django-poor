@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div style="background: white; padding: 15px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center;">
+        <a href="/"><button class="text5">Главная</button></a>
+        <a href="http://127.0.0.1:8000/about/"><button class="text5">О нас</button></a>
+        <a href="http://127.0.0.1:8000/services/"><button class="text5">Услуги</button></a>
+        <a href="http://127.0.0.1:8000/blog/"><button class="text5">Блог</button></a>
+        <a href="http://127.0.0.1:8000/contacts/"><button class="text5">Контакты</button></a>
+    </div>
+    <div class="poor">
+        <h1>Добро пожаловать на наш сайт!</h1>
+        <p>Это сайт для продажи кошек</p>
+    </div>
+    <div>
+        <img src="/image/1638041559_41-koshka-top-p-kot-v-smetane-51 (1).jpg" alt="image">
+    </div>
+</body>
+</html>
